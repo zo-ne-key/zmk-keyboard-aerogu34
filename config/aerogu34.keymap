@@ -55,27 +55,27 @@
             layers = <3>;
         };
 
-        MB1 {
+        mb1 {
             bindings = <&mkp MB1>;
             key-positions = <16 17>;
         };
 
-        MB2 {
+        mb2 {
             bindings = <&mkp MB2>;
             key-positions = <17 18>;
         };
 
-        LANG1. {
+        lang1 {
             bindings = <&kp LANG1>;
             key-positions = <23 24>;
         };
 
-        LANG2. {
+        lang2 {
             bindings = <&kp LANG2>;
             key-positions = <25 26>;
         };
 
-        Esc. {
+        esc {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
         };

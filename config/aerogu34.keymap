@@ -66,12 +66,12 @@
         };
 
         lang1 {
-            bindings = <&kp LANG_HIRAGANA>;
+            bindings = <&kp LANG1>;
             key-positions = <23 24>;
         };
 
         lang2 {
-            bindings = <&kp LANGUAGE_5>;
+            bindings = <&kp LANG2>;
             key-positions = <25 26>;
         };
 

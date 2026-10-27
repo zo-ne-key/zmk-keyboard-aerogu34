@@ -79,6 +79,56 @@
             bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
+
+        brace {
+            bindings = <&kp LS(N8)>;
+            key-positions = <3 4>;
+        };
+
+        brace1 {
+            bindings = <&kp RS(N9)>;
+            key-positions = <5 6>;
+        };
+
+        bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <3 2>;
+        };
+
+        bracket1 {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <6 7>;
+        };
+
+        exc {
+            bindings = <&kp RS(NUMBER_1)>;
+            key-positions = <8 9>;
+        };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <17 7>;
+        };
+
+        down {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <17 27>;
+        };
+
+        left {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <17 16>;
+        };
+
+        right {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <17 18>;
+        };
+
+        at {
+            bindings = <&kp AT>;
+            key-positions = <1 0>;
+        };
     };
 
     keymap {

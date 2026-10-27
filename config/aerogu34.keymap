@@ -66,12 +66,12 @@
         };
 
         lang1 {
-            bindings = <&kp LANG1>;
+            bindings = <&kp LANG_HIRAGANA>;
             key-positions = <23 24>;
         };
 
         lang2 {
-            bindings = <&kp LANG2>;
+            bindings = <&kp LANGUAGE_5>;
             key-positions = <25 26>;
         };
 
@@ -117,32 +117,17 @@
 
         left {
             bindings = <&kp LEFT_ARROW>;
-            key-positions = <17 16>;
+            key-positions = <26 27>;
         };
 
         right {
             bindings = <&kp RIGHT_ARROW>;
-            key-positions = <17 18>;
+            key-positions = <27 28>;
         };
 
         at {
             bindings = <&kp AT>;
-            key-positions = <1 0>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <11 10>;
-        };
-
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <11 12>;
-        };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <12 13>;
+            key-positions = <9 19>;
         };
     };
 
@@ -152,10 +137,10 @@
         default_layer {
             display-name = "Default";
             bindings = <
-&mt NUMBER_1 Q    &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt NUMBER_5 T  &mt NUMBER_6 Y  &mt NUMBER_7 U  &mt NUMBER_8 I    &mt NUMBER_9 O  &mt NUMBER_0 P
-&mt LCTRL F       &kp A           &lt 3 S         &kp D           &kp G           &kp H           &kp J           &lt 3 K           &kp L           &mt RCTRL MINUS
-&mt LEFT_SHIFT X  &mt LEFT_WIN C  &mt LEFT_ALT V  &kp Z           &kp B           &kp N           &kp M           &mt RS(N8) COMMA  &mt RS(N9) DOT  &mt RIGHT_SHIFT SLASH
-&lt 1 TAB         &lt 3 SPACE                                                     &kp ENTER       &kp BACKSPACE
+&kp Q             &kp W           &kp E           &kp R  &kp T  &kp Y      &kp U          &kp I             &kp O           &kp P
+&mt LCTRL F       &kp A           &lt 3 S         &kp D  &kp G  &kp H      &kp J          &lt 3 K           &kp L           &mt RCTRL MINUS
+&mt LEFT_SHIFT X  &mt LEFT_WIN C  &mt LEFT_ALT V  &kp Z  &kp B  &kp N      &kp M          &mt RS(N8) COMMA  &mt RS(N9) DOT  &mt RIGHT_SHIFT SLASH
+&lt 1 TAB         &lt 3 SPACE                                   &kp ENTER  &kp BACKSPACE
             >;
         };
 

@@ -55,12 +55,12 @@
             layers = <3>;
         };
 
-        mb1 {
+        mk1 {
             bindings = <&mkp MB1>;
             key-positions = <16 17>;
         };
 
-        mb2 {
+        mk2 {
             bindings = <&mkp MB2>;
             key-positions = <17 18>;
         };
@@ -183,6 +183,16 @@
         psc {
             bindings = <&kp LG(LS(S))>;
             key-positions = <26 25 33>;
+        };
+
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <31 12 13>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <31 12 11>;
         };
     };
 

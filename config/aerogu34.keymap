@@ -120,11 +120,6 @@
             key-positions = <27 28>;
         };
 
-        at {
-            bindings = <&kp AT>;
-            key-positions = <9 19>;
-        };
-
         one {
             bindings = <&kp NUMBER_1>;
             key-positions = <0 1>;

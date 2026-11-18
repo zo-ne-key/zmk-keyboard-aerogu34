@@ -97,7 +97,7 @@
 
         exc {
             bindings = <&kp RS(NUMBER_1)>;
-            key-positions = <28 29>;
+            key-positions = <0 2>;
         };
 
         one {
@@ -132,22 +132,22 @@
 
         seven {
             bindings = <&kp NUMBER_7>;
-            key-positions = <17 18>;
+            key-positions = <27 28>;
         };
 
         eight {
             bindings = <&kp NUMBER_8>;
-            key-positions = <27 28>;
+            key-positions = <9 8>;
         };
 
         nine {
             bindings = <&kp NUMBER_9>;
-            key-positions = <8 9>;
+            key-positions = <19 18>;
         };
 
         zero {
             bindings = <&kp NUMBER_0>;
-            key-positions = <18 19>;
+            key-positions = <28 29>;
         };
 
         scn {

@@ -62,7 +62,7 @@
 
         mk2 {
             bindings = <&mkp MB2>;
-            key-positions = <17 18>;
+            key-positions = <26 27>;
         };
 
         lang1 {
@@ -77,12 +77,12 @@
 
         brace {
             bindings = <&kp LS(N8)>;
-            key-positions = <3 4>;
+            key-positions = <33 28>;
         };
 
         brace1 {
             bindings = <&kp RS(N9)>;
-            key-positions = <5 6>;
+            key-positions = <33 29>;
         };
 
         bracket {
@@ -97,7 +97,7 @@
 
         exc {
             bindings = <&kp RS(NUMBER_1)>;
-            key-positions = <0 2>;
+            key-positions = <28 29>;
         };
 
         one {
@@ -132,27 +132,22 @@
 
         seven {
             bindings = <&kp NUMBER_7>;
-            key-positions = <27 28>;
+            key-positions = <17 18>;
         };
 
         eight {
             bindings = <&kp NUMBER_8>;
-            key-positions = <9 8>;
+            key-positions = <27 28>;
         };
 
         nine {
             bindings = <&kp NUMBER_9>;
-            key-positions = <19 18>;
+            key-positions = <9 8>;
         };
 
         zero {
             bindings = <&kp NUMBER_0>;
-            key-positions = <28 29>;
-        };
-
-        scn {
-            bindings = <&kp PRINTSCREEN>;
-            key-positions = <27 33 26>;
+            key-positions = <18 19>;
         };
 
         psc {
@@ -177,7 +172,7 @@
         default_layer {
             display-name = "Default";
             bindings = <
-&mt ESCAPE Q      &kp W           &kp E           &kp R  &kp T  &kp Y      &kp U            &kp I             &kp O           &mt MINUS P
+&mt ESCAPE Q      &kp W           &kp E           &kp R  &kp T  &kp Y      &kp U            &kp I             &kp O           &kp P
 &mt LCTRL F       &kp A           &lt 3 S         &kp D  &kp G  &kp H      &kp J            &lt 3 K           &kp L           &mt RCTRL SEMI
 &mt LEFT_SHIFT X  &mt LEFT_WIN C  &mt LEFT_ALT V  &kp Z  &kp B  &kp N      &kp M            &mt RS(N8) COMMA  &mt RS(N9) DOT  &mt RIGHT_SHIFT SLASH
 &lt 1 TAB         &lt 3 SPACE                                   &kp ENTER  &lt 2 BACKSPACE
@@ -197,19 +192,19 @@
         number_layer {
             display-name = "Number";
             bindings = <
-&kp TAB       &kp N7        &kp N8        &kp N9        &kp MINUS  &kp RIGHT_BRACKET  &trans    &mkp MB3  &trans     &kp ESC
-&kp DOT       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &kp RPAR           &mkp MB1  &kp UP    &mkp MB2   &kp COLON
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp RIGHT_BRACE    &kp LEFT  &kp DOWN  &kp RIGHT  &kp SLASH
-&kp ESC       &kp DEL                                              &kp LANG1          &trans
+&kp ESCAPE        &trans        &trans        &trans  &trans  &trans     &trans         &trans         &trans         &kp MINUS
+&kp LEFT_CONTROL  &trans        &trans        &trans  &trans  &trans     &trans         &trans         &trans         &kp RIGHT_CONTROL
+&kp LEFT_SHIFT    &kp LEFT_GUI  &kp LEFT_ALT  &trans  &trans  &trans     &trans         &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RIGHT_SHIFT
+&kp TAB           &kp SPACE                                   &kp ENTER  &kp BACKSPACE
             >;
         };
 
         scroll_layer {
             display-name = "Scroll";
             bindings = <
-&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LC(LG(LEFT))  &kp LG(TAB)  &trans    &trans     &kp LG(LC(RIGHT))
-&studio_unlock  &trans        &trans        &trans        &trans        &trans            &trans       &kp UP    &trans     &trans
-&trans          &trans        &trans        &trans        &trans        &trans            &kp LEFT     &kp DOWN  &kp RIGHT  &trans
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LC(LG(LEFT))  &kp LG(TAB)  &trans  &trans     &kp LG(LC(RIGHT))
+&studio_unlock  &trans        &trans        &trans        &trans        &trans            &kp UP       &trans  &kp DOWN   &trans
+&trans          &trans        &trans        &trans        &trans        &trans            &kp LEFT     &trans  &kp RIGHT  &trans
 &trans          &trans                                                  &trans            &trans
             >;
         };
